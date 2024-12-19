@@ -1,0 +1,14 @@
+.board-row {
+  display: flex; 
+  align-items: center;
+}
+
+.board-container {
+  margin: 0px auto;;
+}
+
+.board{
+  position:relative;
+  top:20%;
+  left:30%;
+}
