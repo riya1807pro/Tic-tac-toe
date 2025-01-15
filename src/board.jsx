@@ -52,7 +52,7 @@ const Board = () => {
         </>
       ) : (
         <>
-          <h4>Player {isXTurn ? "X" : "O"} please move</h4>
+          <h4>Player {isXTurn ? "X" : "O"} please move  </h4>
           <div className="board-row">
             <Square onClick={() => handleClick(0)} value={state[0]} />
             <Square onClick={() => handleClick(1)} value={state[1]} />
@@ -67,7 +67,8 @@ const Board = () => {
             <Square onClick={() => handleClick(6)} value={state[6]} />
             <Square onClick={() => handleClick(7)} value={state[7]} />
             <Square onClick={() => handleClick(8)} value={state[8]} />
-          </div>
+          </div><br/>
+          <button onClick={handleReset}>Reset </button>
           </>
         )}
     </div>
